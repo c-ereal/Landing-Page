@@ -31,11 +31,11 @@ body {
 }
 
 .left {
-    margin-left: 10%;
+    margin-left: 15%;
 }
 
 .right{
-    margin-right: 10%;
+    margin-right: 13%;
     display:flex;
     flex-direction: row;
 
@@ -51,20 +51,20 @@ body {
 .head {
     display: flex;
     justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 13%;
     margin-top: 60px;
     margin-bottom: 100px
 }
 
 .headimg {
     max-height: 300px;
-    width: 560px;
+    width: 470px;
     margin-top: 25px;
 }
 
 .headtext {
-    padding-right: 40px;
+    padding-right: 35px;
 }
 
 .title {
@@ -124,7 +124,7 @@ ul {
     background-color: #e5e7eb;
     margin:-37px 0 0 0;
     height: 300px;
-    padding: 100px 200px;
+    padding: 100px 0px;
 
 }
 
@@ -133,17 +133,21 @@ ul {
     background-color: #e5e7eb;
     font-size: 36px;
     font-style: italic;
-    font-weight: 100;
-    display:flexbox;
+    font-weight: 120;
+    display:flex;
+    margin-left: 22%;
+    margin-right: 21%;
 }
 
 .author {
     color: #1f2937;
     background-color: #e5e7eb;
-    font-weight:500;
+    font-weight:bolder;
     font-size: 22px;
-    display:flexbox;
+    display:flex;
     justify-content:flex-end;
+    margin-right: 25%;
+    margin-top: -20px;
 }
 
 .backsign {
@@ -161,12 +165,20 @@ ul {
     border-radius: 8px;
     padding: 20px 60px;
     display:flex;
+    justify-content: space-between;
     align-items: center;
-    text-align: left;
 }
 
+
 .action {
-    margin-right: 300px;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bolder;
+    margin-bottom:-23px;
+}
+
+.signtext {
+    padding-right: 100px;
 }
 
 button{
